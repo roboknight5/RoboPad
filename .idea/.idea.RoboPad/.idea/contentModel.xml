@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.3/python_stubs/-1247971761" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_RoboPad.-120808468.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.local/lib/python3.8/site-packages" t="IncludeRecursive" />
+    <e p="$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" t="IncludeRecursive" />
+    <e p="$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/2and3" t="IncludeRecursive" />
+    <e p="$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/3" t="IncludeRecursive" />
+    <e p="$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/3.7" t="IncludeRecursive" />
+    <e p="$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/third_party/2and3" t="IncludeRecursive" />
+    <e p="$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/third_party/3" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="RoboPad" t="IncludeRecursive">
+        <e p="Program.cs" t="Include" />
+        <e p="RoboPad.csproj" t="IncludeRecursive" />
+        <e p="alpha" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="main.glade" t="Include" />
+        <e p="main.glade~" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="RoboPad.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="test.py" t="Include" />
+      </e>
+      <e p="RoboPad.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="/usr/lib/python3/dist-packages" t="IncludeRecursive" />
+    <e p="/usr/lib/python3.8" t="IncludeRecursive">
+      <e p="lib-dynload" t="IncludeRecursive" />
+    </e>
+    <e p="/usr/local/lib/python3.8/dist-packages" t="IncludeRecursive" />
+  </component>
+</project>
