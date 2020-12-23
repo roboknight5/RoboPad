@@ -13,8 +13,13 @@
     <e p="$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/third_party/3" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="RoboPad" t="IncludeRecursive">
-        <e p="Program.cs" t="Include" />
+        <e p="FileIOHandler.cs" t="Include" />
+        <e p="LanguageMap.cs" t="Include" />
+        <e p="LanguageSelectorButton.cs" t="Include" />
+        <e p="PopOverMenuHandler.cs" t="Include" />
+        <e p="RoboPad.cs" t="Include" />
         <e p="RoboPad.csproj" t="IncludeRecursive" />
+        <e p="ToolButtonHandler.cs" t="Include" />
         <e p="alpha" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="main.glade" t="Include" />

@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8faf9aba-a26e-4c67-b3aa-0d450e48d474" name="Default Changelist" comment="FirstCommit">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RoboPad/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RoboPad/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RoboPad/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RoboPad/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RoboPad/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RoboPad/LanguageMap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RoboPad/LanguageSelectorButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RoboPad/PopOverMenuHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RoboPad/ToolButtonHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RoboPad/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RoboPad/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RoboPad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RoboPad/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoboPad/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RoboPad/RoboPad.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///home/mohamed/Documents/C# Projects/RoboPad/RoboPad/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/61F500AC-53A2-4B67-ACA7-9530A3823D51/5c/e152d7e1/MenuButton.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F6A313A-05E2-44D2-B41F-3B7F8CAA52EF/24/c93bcd89/LanguageManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/61F500AC-53A2-4B67-ACA7-9530A3823D51/54/17eb3d32/TextBuffer.cs" root0="SKIP_HIGHLIGHTING" />
@@ -39,6 +40,12 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/RoboPad/test.py" />
       <option value="$PROJECT_DIR$/RoboPad/Program.cs" />
+      <option value="$PROJECT_DIR$/RoboPad/FileIOHandler.cs" />
+      <option value="$PROJECT_DIR$/RoboPad/LanguageMap.cs" />
+      <option value="$PROJECT_DIR$/RoboPad/LanguageSelectorButton.cs" />
+      <option value="$PROJECT_DIR$/RoboPad/PopOverMenuHandler.cs" />
+      <option value="$PROJECT_DIR$/RoboPad/ToolButtonHandler.cs" />
+      <option value="$PROJECT_DIR$/RoboPad/RoboPad.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1llFtveqJleCl98oHQx85ySZu08" />
@@ -85,6 +92,9 @@
       <module name="riderModule" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RoboPad" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -123,7 +133,11 @@
       <workItem from="1608407571754" duration="5734000" />
       <workItem from="1608463285130" duration="8769000" />
       <workItem from="1608481525082" duration="2917000" />
-      <workItem from="1608560494828" duration="18040000" />
+      <workItem from="1608560494828" duration="19082000" />
+      <workItem from="1608642071408" duration="1005000" />
+      <workItem from="1608656868054" duration="815000" />
+      <workItem from="1608677580394" duration="6082000" />
+      <workItem from="1608740148067" duration="632000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <created>1608583900975</created>
@@ -132,7 +146,42 @@
       <option name="project" value="LOCAL" />
       <updated>1608583900975</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="FirstCommit">
+      <created>1608584045896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608584045896</updated>
+    </task>
+    <task id="LOCAL-00003" summary="FirstCommit">
+      <created>1608584079609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608584079609</updated>
+    </task>
+    <task id="LOCAL-00004" summary="FirstCommit">
+      <created>1608584141660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608584141660</updated>
+    </task>
+    <task id="LOCAL-00005" summary="FirstCommit">
+      <created>1608584153679</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608584153679</updated>
+    </task>
+    <task id="LOCAL-00006" summary="FirstCommit">
+      <created>1608584243309</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608584243309</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +189,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="FirstCommit" />
