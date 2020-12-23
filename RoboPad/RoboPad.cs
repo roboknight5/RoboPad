@@ -386,7 +386,6 @@ namespace RoboPad
         }
         public static void Main(string[] args)
         {
-            String str = "\n\n\n";
             
             Gtk.Application.Init();
             new RoboPad(WindowType.Toplevel,args);

@@ -11,4 +11,8 @@
       <PackageReference Include="GtkSourceSharp" Version="3.22.25.128" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="MainLayout.cs" />
+    </ItemGroup>
+
 </Project>

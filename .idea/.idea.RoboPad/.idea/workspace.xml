@@ -4,14 +4,11 @@
     <projectFile>RoboPad/RoboPad.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8faf9aba-a26e-4c67-b3aa-0d450e48d474" name="Default Changelist" comment="FirstCommit">
-      <change afterPath="$PROJECT_DIR$/RoboPad/LanguageMap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RoboPad/LanguageSelectorButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RoboPad/PopOverMenuHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RoboPad/ToolButtonHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RoboPad/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RoboPad/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="8faf9aba-a26e-4c67-b3aa-0d450e48d474" name="Default Changelist" comment="Refactored Code Into Multiple Classes">
+      <change afterPath="$PROJECT_DIR$/RoboPad/MainLayout.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RoboPad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RoboPad/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RoboPad/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RoboPad/RoboPad.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoboPad/RoboPad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RoboPad/RoboPad.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoboPad/RoboPad.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RoboPad/RoboPad.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +31,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/61F500AC-53A2-4B67-ACA7-9530A3823D51/54/17eb3d32/TextBuffer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RoboPad/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/9F6A313A-05E2-44D2-B41F-3B7F8CAA52EF/f1/891139fe/02000050.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RoboPad/MainLayout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RoboPad/bin/Debug/test.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -45,6 +43,7 @@
       <option value="$PROJECT_DIR$/RoboPad/LanguageSelectorButton.cs" />
       <option value="$PROJECT_DIR$/RoboPad/PopOverMenuHandler.cs" />
       <option value="$PROJECT_DIR$/RoboPad/ToolButtonHandler.cs" />
+      <option value="$PROJECT_DIR$/RoboPad/MainLayout.cs" />
       <option value="$PROJECT_DIR$/RoboPad/RoboPad.cs" />
     </changedPaths>
   </component>
@@ -137,7 +136,7 @@
       <workItem from="1608642071408" duration="1005000" />
       <workItem from="1608656868054" duration="815000" />
       <workItem from="1608677580394" duration="6082000" />
-      <workItem from="1608740148067" duration="632000" />
+      <workItem from="1608740148067" duration="1701000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <created>1608583900975</created>
@@ -181,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608584243309</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Refactored Code Into Multiple Classes">
+      <created>1608741442745</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608741442745</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +210,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="FirstCommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="FirstCommit" />
+    <MESSAGE value="Refactored Code Into Multiple Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored Code Into Multiple Classes" />
   </component>
 </project>
